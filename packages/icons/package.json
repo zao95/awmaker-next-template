@@ -1,0 +1,18 @@
+{
+    "name": "icons",
+    "version": "0.0.0",
+    "main": "./index.ts",
+    "types": "./index.ts",
+    "license": "MIT",
+    "scripts": {
+        "lint": "eslint .",
+        "gen": "turbo gen svg-icon"
+    },
+    "dependencies": {
+        "react-device-detect": "^2.2.3",
+        "styled-components": "^6.1.0"
+    },
+    "devDependencies": {
+        "@turbo/gen": "^2.0.14"
+    }
+}
